@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" slick-uniqueid="3">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="Minchan Chen, 陈敏婵, City University of Hong Kong, 香港城市大学, learning aesthetics, geometry analysis">
+<meta name="description" content="Learning 3D Shape Aesthetics Globally and Locally">
+<link rel="stylesheet" href="../homepage_files/style/jemdoc.css" type="text/css">
+<style type="text/css">
+</style>
+<title>Learning 3D Aesthetics</title>
+<!-- <link rel="shortcut icon" href="./cuboid_abstraction_files/animal_abstraction.ico" > -->
+</head>
+
+<body>
+<div id="layout-content" style="margin-top:25px">
+
+<!-- teaser -->
+<table border="0" width="90%" align="center"> <tbody>
+<tr>
+  <td valign="top" align="center">
+    <b><font size="6" face="Times New Roman" >Learning 3D Shape Aesthetics Globally and Locally</font></b>
+    <br><br>
+  </td>
+</tr>
+
+<tr>
+  <td valign="top" align="center">
+    <font size="5" face="Times New Roman" > Pacific Graphics 2022</font>
+    <br><br>
+  </td>
+</tr>
+
+<tr>
+  <td valign="top" align="center">
+    <font size="4" face="Times New Roman" > <a href="https://mcchen233.github.io/"  target="_blank"><u>Minchan Chen</u></a> </font> &emsp;&emsp;&emsp;&emsp;
+    <font size="4" face="Times New Roman" > <a href="https://sites.google.com/site/manfredlau/"  target="_blank"><u>Manfred Lau</u></a> </font> 
+    <br> 
+    <font size="4" face="Times New Roman" >City University of Hong Kong</font>
+    <br> <br>
+  </td>
+</tr>
+
+<tr>
+  <td valign="top" align="center">
+      <img width="100%" src="./learning_aesthetics/teaser.jpg">
+  </td>
+</tr>
+</tbody> </table>
+
+<!-- Abstract -->
+<table border="0" width="100%"> <tbody>
+<h1>Abstract</h1>
+<tr>
+  <p style="text-align:justify;">
+  <font face="Times New Roman" >
+    There exist previous works in computing the visual aesthetics of 3D shapes “globally”, where the term global means that shape aesthetics data are collected for whole 3D shapes and then used to compute the aesthetics of whole 3D shapes. In this paper, we introduce a novel method that takes such “global” shape aesthetics data, and learn both a “global” shape aesthetics measure that computes aesthetics scores for whole 3D shapes, and a “local” shape aesthetics measure that computes to what extent a local region on the 3D shape surface contributes to the whole shape’s aesthetics. These aesthetics measures are learned, and hence do not consider existing handcrafted notions of what makes a 3D shape aesthetic. We take a dataset of global pairwise shape aesthetics, where humans compares between pairs of shapes and say which shape from each pair is more aesthetic. Our solution proposes a point-based neural network that takes a 3D shape represented by surface patches as input and jointly outputs its global aesthetics score and a local aesthetics map. To build connections between global and local aesthetics, we embed the global and local features into the same latent space and then output scores with the weights-shared aesthetics predictors. Furthermore, we designed three loss functions to supervise the training jointly. We demonstrate the shape aesthetics results globally and locally to show that our framework can make good global aesthetics predictions while the predicted aesthetics maps are consistent with human perception. In addition, we present several applications enabled by our local aesthetics metric.
+  </font>
+  </p>
+</tr>
+
+<!-- Video -->
+<table border="0" width="100%"> <tbody>
+<h1>Video</h1>
+<tr>
+  <p align="center">
+  <video width="80%" controls="controls">
+  <source src="./learning_aesthetics/video.mp4" type="video/mp4">
+  </video>
+  </p>       
+</tr>
+
+<!-- Video -->
+<table border="0" width="100%"> <tbody>
+<h1>Downloads</h1>
+<tr>
+  <td align="left" width="15%">
+    <img src="./learning_aesthetics/thumbnail.png" height="150" >
+  </td>
+  <td>
+    <strong>Paper</strong> [<a href="./learning_aesthetics/paper.pdf" target="_blank">PDF</a>] <br><br>
+    <strong>Slides</strong> [tbc]<br><br>
+    <!-- [<a href="./learning_aesthetics/slides.pptx" target="_blank">PPTX</a>] <br><br> -->
+    <strong>Citation</strong> [tbc]<br>
+    <!-- [<a href="./learning_aesthetics/tex.bib" target="_blank">BibTeX</a>]<br> -->
+    <p style="text-align:justify;">
+    <font face="Times New Roman" >
+    Chen, M. and Lau, M. "Learning 3D Shape Aesthetics Globally and Locally." In Computer Graphics Forum, vol. 40, no. 7, pp. xxx-xxx. 2022.
+    </font>
+    </p>
+  </td>
+</tr>
+</tbody> </table>
+
+<!-- Acknowledgements -->
+<table border="0" width="100%"> <tbody>
+<h1>Acknowledgements</h1>
+<tr>
+  <p style="text-align:justify;">
+  <font face="Times New Roman" >
+    We thank the anonymous reviewers for their comments. This work was partially supported by grants from the Hong Kong Research Grants Council (General Research Fund numbers 11206319 and 11205420).
+  </font>
+  </p>
+</tr>
+
+</div>
+</body>
+</html>
